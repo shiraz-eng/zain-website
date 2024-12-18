@@ -1,0 +1,504 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-logo{
+    width: 30%;
+    height: auto;
+}
+.nav-item :hover{
+    background-color:#008080;
+    font-size: 1rem;
+}
+a{
+    font-family :"Oswald" , sans-serif ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+font-kerning: normal;
+font-optical-sizing: auto;
+font-stretch:100%;
+font-variation-settings:
+normal;
+font-feature-settings:
+normal;
+text-transform:
+uppercase;
+text-decoration:
+none solid rgb(254, 189, 26);
+text-align:
+left;
+text-indent:0px;
+}
+.report{
+    height: 2.5rem;
+    width: 10rem;
+background-color: #008080;
+}
+.report a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-menu{
+    color: white;
+}
+.navbar{
+    background-color: black;
+}
+.cover-img-car{
+    background-image: url(img-bike.jpeg);
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.car-info-parent{
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    margin-left: 10rem;
+}
+.info-car{
+    padding-right: 1.5rem;
+}
+.info-car h1{
+    font-family: "Oswald" , sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+    text-transform:capitalize ;
+}
+.info-report h1{
+    font-family: "Oswald" , sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #008080;
+    text-transform: capitalize;
+}
+.price-option{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-top: -8rem;
+    padding-bottom: 2rem;
+}
+.pro-info{
+    width: 50%;
+    height: auto;
+    margin-left: 19rem;
+}
+.pro-info h6{
+    color:#008080;
+    font-family: "nunito sans" , sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.pro-info h1{
+    font-family: "oswald" , sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+}
+.pro-info p{
+    color: white;
+    font-family: "nunito sans" , sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.price-comparison-info{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.price-comparison-1{
+    width: 25%;
+    height: auto;
+    background-color:black;
+    border: 1px solid;
+    border-color:#101018;
+    margin-bottom: 4rem;
+}
+.option-category{
+    font-family: "oswald" , sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #008080;
+    padding-top: 2rem;
+}
+.price-comparison-2{
+    width: 25%;
+    height: auto;
+    background-color: #171A27;
+    border: 1px solid;
+    border-color:#101018;
+    padding-bottom: 3rem;
+}
+.price-comparison-3{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    border: 1px solid;
+    border-color:#101018;
+    padding-bottom: 2rem;
+}
+.price-tag{
+    font-weight: 600;
+    font-family: "oswlald" , sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.text-edit-h6 li{
+    font-family: "oswald" , sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-edit-h6 h6{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: "nunito sans" , sans-serif ;
+    font-weight: 400;
+}
+ul{
+    color: white;
+}
+.order-option{
+    width: 8rem;
+    height: 3rem;
+    background-color: #008080;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.order-option a{
+text-decoration: none;
+display: flex;
+justify-content: center;
+padding-top: 0.5rem;
+font-family: "oswald" , sans-serif;
+color: #2B2418;
+font-size: 1.1rem;
+}
+.order-option a:hover{
+    font-size: 1.3rem;
+}
+.last-container{
+    width: 100%;
+    height: auto;
+    background-color: #23283B;
+    display: flex;
+}
+.footer-img{
+   color: white;
+    max-width: 30%;
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+}
+.footer-img p{
+    padding-top: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 80%;
+    height: auto;
+}
+.services-list{
+   padding-left: 3rem;
+   padding-top: 4rem;
+    width: 30%;
+}
+.services-list li{
+    margin-bottom: 0.5rem;
+}
+.services-list h2{
+    color: white;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-family: "oswald" ,sans-serif;
+    font-family: 500;
+    font-size: 1.5rem;
+}
+.services-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+font-weight: 300;
+}
+.services-list a:hover{
+    color: #008080;
+    font-size: 1rem;
+    
+}
+.contact-details{
+    width: 30%;
+    height: auto;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+.contact-details h3{
+    font-family: "oswald" ,sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+.icon-container{
+    width: 100%;
+    height: auto;
+display: flex;
+margin-top: 2rem;
+}
+.message-container{
+    margin-top: -0.1rem;
+}
+.icon-information h3{
+    font-family: "oswald" ,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+.icon-information h3:hover{
+    color:#3D414D;
+}
+.icon-information{
+    margin-left: 1rem;
+    color: white;
+}
+.fa-envelope{
+    font-size: 1.7rem;
+    color: #008080;
+}
+.fa-location-dot{
+    font-size: 1.3rem;
+    color: #008080; 
+}
+.follow-information{
+    width: 30%;
+    height: auto;
+    background-color:#23283B;
+}
+.follow-information h1{
+    font-family: "oswald" ,sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 1.3rem;
+}
+.follow-container{
+    display: flex;
+    margin-left: 1.4rem;
+}
+.follow-icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: #008080;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-icon:hover{
+    background-color: #12121B;
+    font-size: 1rem;
+}
+.facebook-icon{
+    margin-top: 1rem;
+}
+.twitter-icon{
+    margin-top: 1rem;
+margin-left: 0.7rem;
+}
+.youtube-icon{
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+.color-icon{
+    color: #12121B;
+    font-size: 1rem;
+}
+.color-icon:hover{
+    color: #008080;
+    font-size: 1rem;
+}
+.payment-option{
+    margin-top: 2rem;
+}
+.copyright-info{
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+
+}
+.copyright-info p{
+    padding-top: 0.5rem;
+    color: white;
+    padding-left: 2rem;
+}
+.sec-paragraph{
+    height: auto;
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.sec-paragraph p{
+    font-size: 1rem;
+    font-family: "nunito sans" , sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.res img{
+    width: 40%;
+    height: auto;
+}
+@media (max-width:751px) and (min-width:375px){
+    .last-container{
+      flex-direction: column;
+    }
+    .footer-img{
+       max-width: 100%;
+       flex: 0 0 auto;
+       box-sizing: border-box;
+       font-size: 1.5rem;
+    }
+    body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .cover-img-car{
+background-size: contain;
+background-position: top;
+overflow-x: hidden;
+overflow-y: hidden;
+    }
+    .price-comparison-info.text-edit-h6{
+        display: block;
+    }
+    .price-comparison-1{
+        width: 50%;
+        margin-left: 10rem;
+    }
+    .price-comparison-2{
+        width: 50%;
+        margin-left: 10rem;
+    }
+    .price-comparison-3{
+        width: 50%;
+        margin-left: 10rem;
+    }
+    .pro-info{
+        margin-left: 1rem;
+    width: 100%;
+    }
+    .info-report{
+        margin-right: 3rem;
+        margin-left: -1rem;
+    }
+    .info-report h1{
+        font-size: 3rem;
+
+    }
+    .info-car h1{
+        font-size: 3rem;
+    }
+    .car-info-parent{
+        margin-left: 5rem;
+        padding-top: 8rem;
+    }
+}
+
+.cover-img-car img{
+    max-width: 100%;
+    height: 30rem;
+}
+@media (max-width:750px) {
+    .cover-img-car{
+        height: 28rem;
+    }
+}
+@media (max-width:678px){
+    .cover-img-car{
+        height: 24rem;
+    }
+}
+@media (max-width:552px){
+    .cover-img-car{
+        height: 22rem;
+    }
+}
+@media (max-width:475px){
+    .cover-img-car{
+        height: 20rem;
+    }
+}
+@media (max-width:414px){
+    .cover-img-car{
+        height: 18rem;
+    }
+}
+@media (max-width:506px) and (min-width:375px){
+    .info-report h1{
+        font-size: 2rem;
+    }
+    .info-car h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:456px) and (min-width:375px){
+    .price-comparison-1{
+        width: 50%;
+        margin-left: 5rem;
+    }
+    .price-comparison-2{
+        margin-left: 5rem;
+    }
+    .price-comparison-3{
+        margin-left: 5rem;
+    }
+    .car-info-parent{
+        padding-top: 5rem;
+    }
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
